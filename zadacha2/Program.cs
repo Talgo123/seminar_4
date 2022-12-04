@@ -14,7 +14,7 @@ int EntryNumber(string str)
 
 int FindAmountDigit(int number)
 {
-    int i = 0;
+    int i; 
     for (i = 0; number > 0; i++)
     {
        number = number / 10; 
